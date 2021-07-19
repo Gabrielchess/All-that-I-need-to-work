@@ -1,0 +1,38 @@
+Integrando seu Sistema:
+
+Objetivo:
+Como integrar um sistema com fusion através de fontes deq dados externas (formulário externo) e webservices;
+Melhorar controle dos dados evitando retrabalho e duplicação de informação.
+
+Tópicos:
+Modelagem de processos com integração a outro sistema
+Configurando Fontes de dados externa
+Lendo dados através de Eform Externo
+Inserindo dados em seu sistema atrvbés de Web Services
+
+Criando fonte ded dados:
+
+Deve-se clicar em Formulários, configurar e Fonto de Dados -> Nova fonte de dados _> informar o nome da fonte com o loguin e a senha da base de dados
+
+Criando Eform Externo:
+
+Formulários -> configurar -> Externos -> (Informar nome, título e tabela externa) -> Aplicando o botão "OK" o fusion vai identificar e ler as chaves do ERP
+
+Estrutura do Webservice:
+
+A ideia principal é poder fazer atravces de simples chamadas HTTP para manipulação dos dados de uma aplicação.
+
+Adapter conectara o webservice
+
+------------------------------------------------------
+
+Após a correta edição do doc devemos:
+- Fazer tipo de documento
+- Fazer modelo do doc
+- No modelo relacionamos a tipo e ao modedlo
+- Fazer relacionamento entre o formulário do processo e esse tipo de doc q publicaremos.
+
+Criar no formulário um campo tipo eform chamando o tipo de doc q vc criou. lista sim, selecionavel não.
+
+Vá ao processo e insira no campo de interesse o eform criado recentemente.
+
