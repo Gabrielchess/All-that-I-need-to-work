@@ -1,0 +1,18 @@
+Verificar o banco de dado p/ de Cardeal do Nordeste.
+
+Ver 19-07 7GC15 - Inconsistência.
+
+Ver Rolinha 2021
+
+Ver Lagoa Parda prod acumulada antes de 2020
+
+
+Quero Plotar:
+
+Produção Diária:
+O quando produzo por dia, podendo filtrar campo poço e data;
+
+Produção Acumulada:
+Quero plotar produção acumulada, poderndo filtrar po campo poço e data;
+
+Produtividade:
